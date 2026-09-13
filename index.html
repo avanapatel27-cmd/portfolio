@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Avana Framroz Patel · Resident Doctor, Surgery, Research and MedTech</title>
+  <meta name="description" content="The study of Dr. Avana Framroz Patel, a resident doctor in London working where surgery, research and technology meet: MedTech projects, surgical logbook, research, certificates and writing." />
+  <link rel="canonical" href="https://your-domain.example/" />
+  <meta name="theme-color" content="#0b0805" />
+  <meta name="author" content="Dr. Avana Framroz Patel" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Dr. Avana Framroz Patel" />
+  <meta property="og:title" content="Dr. Avana Framroz Patel · Resident Doctor, Surgery, Research and MedTech" />
+  <meta property="og:description" content="A resident doctor in London working where surgery, research and technology meet. Explore the desk: MedTech projects, surgical logbook, research and writing." />
+  <meta property="og:url" content="https://your-domain.example/" />
+  <meta property="og:image" content="https://your-domain.example/assets/share.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="A wooden desk with a laptop, a leather logbook, a skull and a brass orrery in a sunlit study, with the name Dr. Avana Framroz Patel" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dr. Avana Framroz Patel · Resident Doctor, Surgery, Research and MedTech" />
+  <meta name="twitter:description" content="A resident doctor in London working where surgery, research and technology meet." />
+  <meta name="twitter:image" content="https://your-domain.example/assets/share.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://your-domain.example/#person",
+        "name": "Avana Framroz Patel",
+        "honorificPrefix": "Dr",
+        "jobTitle": "Resident Doctor",
+        "description": "Resident doctor on the Specialised Foundation Programme in London, working where surgery, research and technology meet.",
+        "url": "https://your-domain.example/",
+        "image": "https://your-domain.example/assets/about-photo.jpg",
+        "email": "mailto:avana.framrozpatel@nhs.net",
+        "worksFor": { "@type": "Organization", "name": "London North West University Healthcare NHS Trust" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Queen Mary University of London, Barts and The London School of Medicine and Dentistry" },
+        "knowsAbout": ["Plastic and reconstructive surgery", "Virtual surgical planning", "Clinical artificial intelligence", "Medical technology", "Medical research"],
+        "sameAs": ["https://www.linkedin.com/in/dr-avana-framroz-patel-029274203/", "https://www.gmc-uk.org/registrants/8147963"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://your-domain.example/#website",
+        "url": "https://your-domain.example/",
+        "name": "Dr. Avana Framroz Patel",
+        "inLanguage": "en-GB",
+        "about": { "@id": "https://your-domain.example/#person" }
+      },
+      {
+        "@type": "ProfilePage",
+        "url": "https://your-domain.example/",
+        "name": "Dr. Avana Framroz Patel · Resident Doctor, Surgery, Research and MedTech",
+        "isPartOf": { "@id": "https://your-domain.example/#website" },
+        "mainEntity": { "@id": "https://your-domain.example/#person" }
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=UnifrakturMaguntia&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=54" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-name">Dr. Avana Framroz Patel</span>
+      <span class="loader-line"><i></i></span>
+      <span class="loader-hint">entering the study</span>
+    </div>
+  </div>
+
+  <!-- The desk scene -->
+  <div class="stage" id="stage">
+    <div class="scene" id="scene">
+      <div class="zoom" id="zoom">
+        <div class="layer" id="layer">
+          <img id="desk" class="desk" src="assets/desk.jpg" alt="A study desk with a laptop, a book, an anatomical skull and a brass orrery" draggable="false" />
+
+          <!-- ambient light overlays -->
+          <div class="rays"><i></i><i></i><i></i></div>
+          <div class="glow candle" id="candleGlow"></div>
+          <div class="glow lamp"></div>
+          <div class="glow screen"></div>
+          <div class="glow sunpool"></div>
+          <canvas class="dust" id="dust"></canvas>
+
+          <!-- hotspots are injected by JS -->
+          <div class="hotspots" id="hotspots"></div>
+        </div>
+
+        <!-- cinematic dolly clips are injected here by JS, one per section that has a video -->
+      </div>
+    </div>
+
+    <div class="spot" id="spot"></div>
+    <div class="scrim"></div>
+    <div class="vignette"></div>
+    <div class="grain"></div>
+  </div>
+
+  <!-- UI chrome -->
+  <header class="brand" id="brand">
+    <div class="brand-row">
+      <button class="about-btn" id="aboutBtn" aria-label="About me">
+        <span class="avatar"><img src="assets/avana.jpg" alt="Portrait of Dr. Avana Framroz Patel" onerror="this.parentElement.classList.add('fallback')"><span class="mono">A</span></span>
+        <span class="info">i</span>
+        <span class="about-label">About me</span>
+      </button>
+      <button class="contact-btn" id="contactBtn" aria-label="Contact me">Contact</button>
+      <button class="sound-btn" id="soundBtn" aria-label="Mute ambient sound" title="Ambient sound">
+        <span class="bars"><i></i><i></i><i></i><i></i></span>
+      </button>
+      <h1 class="brand-name">Dr. Avana Framroz Patel</h1>
+    </div>
+    <span class="brand-sub">Medicine · AI &amp; MedTech · Research · Philosophy</span>
+  </header>
+
+  <div class="hint" id="hint">
+    <span class="hint-dot"></span>
+    <span>Click an object on the desk to explore</span>
+  </div>
+
+  <nav class="nav" id="nav" aria-label="Sections"></nav>
+
+  <!-- Detail views are injected by JS -->
+  <div id="details"></div>
+
+  <script type="module" src="js/main.js?v=70"></script>
+</body>
+</html>

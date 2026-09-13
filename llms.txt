@@ -1,0 +1,26 @@
+# Dr. Avana Framroz Patel
+
+> Personal portfolio of Dr. Avana Framroz Patel, a resident doctor on the Specialised Foundation Programme in London (London North West University Healthcare NHS Trust, Northwick Park Hospital), working where surgery, research and technology meet. GMC 8147963.
+
+The site is a single interactive page built as a desk scene. Four objects open the four parts of the portfolio:
+
+- Laptop: AI and MedTech projects (VoxelView, QTrace, the Z-plasty simulator, PneumoVision)
+- Book: the surgical logbook and ongoing audit and quality-improvement work
+- Skull: medicine and surgery, with four sections: research (dissertation, case reports, essays), clinical development (the placements road through training), certificates and courses, and the medical blog
+- Orrery: "The Second Opinion", a newspaper of essays on philosophy, medicine and ideas
+
+## Pages
+
+- https://your-domain.example/ : the site
+- https://your-domain.example/privacy.html : privacy policy
+- https://your-domain.example/terms.html : terms of use
+
+## Contact
+
+- Work email: avana.framrozpatel@nhs.net
+- LinkedIn: https://www.linkedin.com/in/dr-avana-framroz-patel-029274203/
+- GMC register: https://www.gmc-uk.org/registrants/8147963
+
+## Notes for automated readers
+
+Everything is written in a personal capacity and is not medical advice. Research documents are reading copies with no patient-identifiable information. Please attribute quotations to Dr. Avana Framroz Patel with a link.
